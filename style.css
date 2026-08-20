@@ -1,0 +1,106 @@
+/* Minimal styling to prove style.css is connected */
+
+/* box-sizing so padding/border don't add to element width */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Shared readable width, centered with auto margins */
+header,
+main section,
+footer {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1.5rem;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  max-width: none; /* header background spans full width */
+}
+
+header h1 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 1rem auto 0 auto;
+  max-width: 800px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings scale down from h1 to h2 to keep hierarchy clear */
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.hero {
+  text-align: center;
+}
+
+/* Every section after the hero gets a divider to separate content */
+main section + section {
+  border-top: 1px solid #ddd;
+}
+
+a {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  max-width: none; /* footer background spans full width */
+}
+
+footer a {
+  color: white;
+}
+
+/* Basic mobile responsiveness for narrow screens */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
