@@ -14,8 +14,8 @@ body {
   font-size: 1rem;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #222;
+  background-color: #f5f7f6;
+  color: #24302f;
   line-height: 1.7;
 }
 
@@ -26,14 +26,14 @@ body {
   z-index: 1;
   max-width: calc(100% - 2rem);
   padding: 0.5rem 0.75rem;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #e3efed;
+  color: #1f6f6a;
   text-decoration: none;
 }
 
 .skip-link:focus-visible {
   top: 1rem;
-  outline: 2px solid #333;
+  outline: 2px solid #1f6f6a;
   outline-offset: 3px;
   text-decoration: underline;
 }
@@ -61,7 +61,7 @@ main section p + p {
 
 /* Flex row: title and nav side by side, wrapping to stacked on narrow screens */
 header {
-  background-color: #333;
+  background-color: #29413f;
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -90,8 +90,8 @@ nav a {
 }
 
 nav a.active {
-  color: #333;
-  background-color: #f4f4f4;
+  color: #1f6f6a;
+  background-color: #e3efed;
   font-weight: 600;
 }
 
@@ -128,8 +128,8 @@ h2 {
   gap: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
+  background-color: #fbfcfb;
+  border-bottom: 1px solid #d9e1df;
   text-align: center;
 }
 
@@ -146,11 +146,11 @@ h2 {
 
 /* Every section after the hero gets a divider to separate content */
 main section + section {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #d9e1df;
 }
 
 a {
-  color: #333;
+  color: #1f6f6a;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.15em;
 }
@@ -160,13 +160,13 @@ a:hover {
 }
 
 a:focus-visible {
-  outline: 2px solid #333;
+  outline: 2px solid #1f6f6a;
   outline-offset: 3px;
 }
 
 footer {
   text-align: center;
-  background-color: #333;
+  background-color: #29413f;
   color: white;
   padding: 2.5rem max(1.5rem, calc((100% - 800px) / 2));
 }
