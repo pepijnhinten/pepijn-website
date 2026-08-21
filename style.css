@@ -19,7 +19,19 @@ main section {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 3rem 1.5rem;
+}
+
+main section h2 {
+  margin: 0 0 1rem;
+}
+
+main section p {
+  margin: 0;
+}
+
+main section p + p {
+  margin-top: 1rem;
 }
 
 /* Flex row: title and nav side by side, wrapping to stacked on narrow screens */
@@ -86,6 +98,7 @@ h2 {
 
 .hero h2 {
   font-size: 2rem;
+  margin: 0;
 }
 
 .hero p {
