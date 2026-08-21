@@ -64,6 +64,13 @@ nav a {
   text-decoration: none;
 }
 
+nav a.active {
+  color: #333;
+  background-color: #f4f4f4;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
