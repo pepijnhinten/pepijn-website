@@ -71,14 +71,26 @@ h2 {
   margin-top: 0;
 }
 
-/* Flex column: stacks hero heading and text, centered both ways */
+/* Center and distinguish the introductory section. */
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: white;
   text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0;
 }
 
 /* Every section after the hero gets a divider to separate content */
