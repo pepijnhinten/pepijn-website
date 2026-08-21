@@ -14,13 +14,11 @@ body {
   line-height: 1.6;
 }
 
-/* Shared readable width, centered with auto margins */
-header,
-main section,
-footer {
+/* Main content stays within a centered, readable width. */
+main section {
+  width: 100%;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 2rem 1.5rem;
 }
 
@@ -28,12 +26,12 @@ footer {
 header {
   background-color: #333;
   color: white;
-  max-width: none; /* header background spans full width */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  padding: 2rem max(1.5rem, calc((100% - 800px) / 2));
 }
 
 nav ul {
@@ -90,7 +88,7 @@ footer {
   text-align: center;
   background-color: #333;
   color: white;
-  max-width: none; /* footer background spans full width */
+  padding: 2rem max(1.5rem, calc((100% - 800px) / 2));
 }
 
 footer a {
