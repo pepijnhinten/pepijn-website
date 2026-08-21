@@ -46,14 +46,17 @@ main section {
   padding: 3.25rem 1.5rem;
 }
 
-main section h2 {
-  margin: 0 0 1rem;
+main section:not(.hero) h2 {
+  color: #29413f;
+  font-size: 1.625rem;
+  line-height: 1.25;
+  margin: 0 0 1.125rem;
 }
 
 main section p {
   max-width: 680px;
   margin: 0;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 main section p + p {
@@ -155,6 +158,10 @@ h2 {
 /* Every section after the hero gets a divider to separate content */
 main section + section {
   border-top: 1px solid #d9e1df;
+}
+
+main section.hero + section {
+  border-top: 0;
 }
 
 a {
