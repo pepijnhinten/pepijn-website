@@ -183,7 +183,7 @@ h2 {
   line-height: 1.65;
 }
 
-.hero-byline {
+.hero p.hero-byline {
   margin: 0;
   font-size: 0.9375rem;
   font-weight: 600;
@@ -195,7 +195,7 @@ h2 {
   margin-top: 0.5rem;
 }
 
-.hero-role {
+.hero p.hero-role {
   font-size: 1rem;
   font-style: italic;
 }
