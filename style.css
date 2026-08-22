@@ -76,6 +76,18 @@ header {
   padding: 0.875rem max(1.5rem, calc((100% - 800px) / 2));
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -160,7 +172,7 @@ h2 {
   font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: 0.03em;
-  color: #1f6f6a;
+  color: #A81619;
 }
 
 .hero-byline + p {
@@ -271,6 +283,11 @@ footer a:focus-visible {
 
   h1 {
     font-size: 1.5rem;
+  }
+
+  .brand-logo {
+    width: 36px;
+    height: 36px;
   }
 
   h2 {
