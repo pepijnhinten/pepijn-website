@@ -63,6 +63,25 @@ main section p + p {
   margin-top: 1rem;
 }
 
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 340px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.about-copy h2 {
+  margin-top: 0;
+}
+
 /* Flex row: title and nav side by side, wrapping to stacked on narrow screens */
 header {
   background-color: #5A171A;
@@ -109,9 +128,6 @@ nav a {
 }
 
 nav a.active {
-  color: #A81619;
-  border-bottom: 2px solid #A81619;
-  font-weight: 600;
 }
 
 nav a:hover {
@@ -177,6 +193,15 @@ h2 {
 
 .hero-byline + p {
   margin-top: 0.5rem;
+}
+
+.hero-role {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.hero-byline + .hero-role {
+  margin-top: 0;
 }
 
 /* Every section after the hero gets a divider to separate content */
@@ -279,6 +304,16 @@ footer a:focus-visible {
 
   .hero h2 {
     font-size: 1.875rem;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .about-photo {
+    width: min(100%, 240px);
+    justify-self: center;
   }
 
   h1 {
