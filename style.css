@@ -266,6 +266,17 @@ footer a:focus-visible {
   }
 }
 
+@media (min-width: 601px) and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  nav {
+    width: 100%;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
