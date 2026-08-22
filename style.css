@@ -133,7 +133,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1rem;
   padding-top: 4.75rem;
   padding-bottom: 4.75rem;
   background-color: #fbfcfb;
@@ -153,6 +153,18 @@ h2 {
   margin: 0;
   font-size: 1.125rem;
   line-height: 1.65;
+}
+
+.hero-byline {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #1f6f6a;
+}
+
+.hero-byline + p {
+  margin-top: 0.5rem;
 }
 
 /* Every section after the hero gets a divider to separate content */
