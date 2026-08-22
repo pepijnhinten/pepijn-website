@@ -44,7 +44,7 @@ if ("IntersectionObserver" in window && navigationLinks.length > 0 && sections.l
 			});
 			activeLink.classList.add("active");
 		},
-		{ threshold: 0.5 }
+		{ threshold: 0.1 }
 	);
 
 	sections.forEach((section) => {
