@@ -110,7 +110,7 @@ nav a {
 
 nav a.active {
   color: #A81619;
-  background-color: #F3E5E3;
+  border-bottom: 2px solid #A81619;
   font-weight: 600;
 }
 
