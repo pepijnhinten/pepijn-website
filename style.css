@@ -86,7 +86,7 @@ main section p + p {
 
 /* Flex row: title and nav side by side, wrapping to stacked on narrow screens */
 header {
-  background-color: #5A171A;
+  background-color: #6A5A55;
   border-bottom: 1px solid #DED6D3;
   color: white;
   display: flex;
@@ -107,6 +107,7 @@ header {
   width: 42px;
   height: 42px;
   flex-shrink: 0;
+  transform: scale(1.1);
 }
 
 nav ul {
