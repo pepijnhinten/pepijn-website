@@ -42,9 +42,9 @@ The website may emphasise professional, experienced and independent deployment.
 
 ## Qualifications
 
-Primary professional qualification:
+Relevant education for care and support work:
 
-Persoonlijk Begeleider Maatschappelijke Zorg, MBO level 4 (PBMZ4).
+Persoonlijk Begeleider Maatschappelijke Zorg, MBO level 4 (PBMZ4), supplemented by a propedeuse HBO Toegepaste Psychologie.
 
 Additional education:
 
