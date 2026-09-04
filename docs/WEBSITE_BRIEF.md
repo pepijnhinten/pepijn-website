@@ -237,9 +237,11 @@ The public footer now includes:
 - VAT identification number (BTW-ID): NL005533877B24;
 - business email address;
 - LinkedIn link;
-- privacy statement (to be added once available).
+- a working link to the privacy statement (`privacy.html`).
 
 No physical or postal address is published on the website.
+
+A dedicated privacy statement page (`privacy.html`) is now available, covering the responsible party, categories of personal data processed via e-mail contact, purposes, AVG legal grounds, retention, sharing with third parties, GitHub Pages hosting, cookies, external links, security, data subject rights, complaints (Autoriteit Persoonsgegevens) and a last-updated date. No address, BSN or bank details are included.
 
 Never publish:
 
