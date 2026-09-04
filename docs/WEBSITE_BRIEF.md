@@ -229,23 +229,27 @@ Do not add unnecessary analytics, tracking or third-party scripts.
 
 ## Business information
 
-The website should ultimately provide the appropriate public business information, including where applicable:
+The public footer now includes:
 
 - Integral Care;
-- business owner's name;
-- Chamber of Commerce (KvK) number;
+- business owner's name (Pepijn Hinten White);
+- Chamber of Commerce (KvK) number: 42145542;
+- VAT identification number (BTW-ID): NL005533877B24;
 - business email address;
-- required business/contact details;
-- VAT identification number once received and where publication is appropriate or required;
-- privacy statement.
+- LinkedIn link;
+- privacy statement (to be added once available).
+
+No physical or postal address is published on the website.
 
 Never publish:
 
+- home/postal address;
 - BSN;
 - omzetbelastingnummer;
 - VOG document numbers;
 - insurance policy numbers;
-- identity documents.
+- identity documents;
+- bank details.
 
 ---
 
