@@ -306,6 +306,8 @@ Navigation may use anchors to these sections.
 
 The current design and structure should be preserved where it already works well. Do not redesign solely to match this exact ordering if the existing implementation achieves the same goals more effectively.
 
+The website uses a system-font stack (no external web fonts). There is no dependency on Google Fonts or any other external font provider.
+
 ---
 
 ## Do not publish
