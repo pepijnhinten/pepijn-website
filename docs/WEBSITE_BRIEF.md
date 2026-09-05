@@ -163,25 +163,35 @@ Prefer descriptions involving coordination or supporting a team unless formal ma
 
 Wmo = Wet maatschappelijke ondersteuning.
 
-Integral Care may in the future provide direct support to adults using a personal budget under the Wmo.
+Integral Care is preparing to provide direct support to adults using a personal budget under the Wmo (Wmo-PGB). Prospective clients are welcome to make contact and arrange an introductory conversation (kennismaking). Actual support will commence once all required PGB arrangements, care agreements, approvals where applicable, and practical conditions are in place.
 
-The website may describe this as:
+A dedicated page `wmo-pgb.html` presents this service offering, including:
 
-"Begeleiding vanuit een Wmo-PGB"
+- target group (relatively independent adults);
+- Pepijn's support style;
+- practical information (region, target group, education, costs, etc.);
+- clear explanation of the Wmo-PGB arrangement;
+- first conversation process (kennismaking).
 
-Make clear that availability depends on:
+The homepage (index.html) includes a secondary entry point under the Wmo-PGB section (#pgb), which links to the dedicated page.
 
-- the client's formal decision/indication;
+Navigation across all pages links to wmo-pgb.html.
+
+The website makes clear that availability depends on:
+
+- the client's formal Wmo-PGB decision/indication;
 - the support granted under that decision;
-- requirements imposed by the relevant municipality.
+- requirements imposed by the relevant municipality;
+- mutual fit between client and provider.
 
 Do not state or imply:
 
 - "erkende Wmo-aanbieder";
 - "approved in all municipalities";
-- "all PGB arrangements accepted".
+- "all PGB arrangements accepted";
+- that support starts automatically without care agreement and practical conditions.
 
-Do not offer or imply Wlz-PGB services.
+Do not offer or imply Wlz-PGB services. Wlz-PGB is currently outside the service offering.
 
 ---
 

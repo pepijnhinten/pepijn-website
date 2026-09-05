@@ -367,6 +367,26 @@ footer a:focus-visible {
   outline-offset: 3px;
 }
 
+/* Definition list for structured practical information */
+.info-list {
+  display: grid;
+  grid-template-columns: minmax(140px, 200px) 1fr;
+  gap: 1rem 2rem;
+  max-width: var(--measure);
+  margin: 0;
+  padding: 0;
+}
+
+.info-list dt {
+  font-weight: 600;
+  color: var(--color-anthracite);
+}
+
+.info-list dd {
+  margin: 0;
+  color: var(--color-anthracite);
+}
+
 /* Basic mobile responsiveness for narrow screens */
 @media (max-width: 600px) {
   nav {
@@ -424,6 +444,20 @@ footer a:focus-visible {
 
   h2 {
     font-size: 1.25rem;
+  }
+
+  .info-list {
+    grid-template-columns: 1fr;
+    gap: 1rem 0;
+  }
+
+  .info-list dt {
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+
+  .info-list dt:first-child {
+    margin-top: 0;
   }
 }
 
