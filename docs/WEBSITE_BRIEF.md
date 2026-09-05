@@ -12,9 +12,9 @@ During the initial phase, Integral Care will mainly work for healthcare organisa
 
 Direct assignments from healthcare and social-care organisations are also possible.
 
-Wmo-PGB support is a potential future additional service. It may be mentioned carefully, but the website must not suggest that Integral Care is already approved or contracted as a PGB provider by every municipality.
+Wmo-PGB enquiries and introductory conversations are possible, subject to the readiness conditions described below. The website must not suggest that Integral Care is already approved or contracted as a PGB provider by every municipality.
 
-Integral Care does not currently offer Wlz-PGB services.
+Wlz-PGB is a future service in preparation and is not yet operational.
 
 The public-facing website itself should remain written in Dutch unless explicitly changed later.
 
@@ -191,7 +191,7 @@ Do not state or imply:
 - "all PGB arrangements accepted";
 - that support starts automatically without care agreement and practical conditions.
 
-Do not offer or imply Wlz-PGB services. Wlz-PGB is currently outside the service offering.
+Wlz-PGB is a future service in preparation. The website may state this clearly, but must not imply that the service is operational or that Integral Care currently accepts Wlz-PGB clients.
 
 ---
 
@@ -271,7 +271,7 @@ Do not make regulatory, legal or healthcare claims that have not been verified.
 
 The website should describe services rather than imply registrations, approvals or statutory authorisations that Integral Care does not yet have.
 
-Wlz-PGB is currently outside the service offering.
+Wlz-PGB is a future service in preparation and is not yet operational. Do not imply that applicable registrations, quality requirements, legal requirements or other operational prerequisites have already been completed unless explicitly verified.
 
 ---
 
