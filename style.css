@@ -238,6 +238,23 @@ h2 {
     radial-gradient(ellipse 75% 48% at 46% 137%, transparent 72%, rgba(95, 95, 95, 0.045) 72.6%, rgba(95, 95, 95, 0.045) 73%, transparent 73.8%);
 }
 
+.hero-watermark {
+  position: absolute;
+  top: 50%;
+  right: -140px;
+  z-index: 0;
+  width: 300px;
+  height: auto;
+  opacity: 0.05;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.hero > :not(.hero-watermark) {
+  position: relative;
+  z-index: 1;
+}
+
 .hero h2 {
   color: var(--color-anthracite);
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -429,6 +446,10 @@ footer a:focus-visible {
   .hero {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .hero-watermark {
+    display: none;
   }
 
   /* Simplify the decorative wash on narrow screens: drop the flowing lines and the upper-right shadow, keep only the soft blush bloom. */
