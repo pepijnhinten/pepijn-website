@@ -449,7 +449,11 @@ footer a:focus-visible {
   }
 
   .hero-watermark {
-    display: none;
+    top: 0.625rem;
+    right: -90px;
+    width: 140px;
+    opacity: 0.045;
+    transform: none;
   }
 
   /* Simplify the decorative wash on narrow screens: drop the flowing lines and the upper-right shadow, keep only the soft blush bloom. */
