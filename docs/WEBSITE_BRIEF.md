@@ -16,7 +16,33 @@ Wmo-PGB enquiries and introductory conversations are possible, subject to the re
 
 Wlz-PGB is a future service in preparation and is not yet operational.
 
+## Regional service area and SEO
+
+Deventer is the primary local SEO anchor. Integral Care's practical service area is Deventer and surrounding towns and areas that are generally within approximately 25 minutes driving distance. Use regional wording such as:
+
+- "Deventer en omgeving";
+- "regio Deventer";
+- "Deventer en omliggende plaatsen".
+
+Where useful, the availability may be described as: "Regio Deventer en omliggende plaatsen binnen circa 25 minuten rijden." This is an indicative service area, not a promise of an exact travel time, because traffic and the client's exact location affect travel time. Do not create keyword-stuffed lists of towns.
+
+This regional framing applies to the homepage, Wmo-PGB page, metadata, structured data `areaServed` values and future Wlz-PGB positioning. Wlz-PGB remains a future service in preparation and is not yet operational.
+
 The public-facing website itself should remain written in Dutch unless explicitly changed later.
+
+## SEO and AI-search implementation
+
+All public pages must have:
+
+- a unique, descriptive Dutch `<title>`;
+- a unique meta description of practical search-snippet length;
+- an absolute canonical URL on `https://integralcare.nl/`;
+- Open Graph title, description, URL, site name and image metadata;
+- valid page-appropriate Schema.org structured data.
+
+The public pages are the homepage (`/`), Wmo-PGB page (`/wmo-pgb.html`) and privacy statement (`/privacy.html`). `sitemap.xml` must list all three pages. `robots.txt` must allow crawling and must not block `OAI-SearchBot`, `Googlebot` or `Bingbot`.
+
+Structured data may describe Integral Care as an organisation and the Wmo-PGB offering as a service. Use `areaServed` with the regional wording above. Do not use structured data to imply municipal approval, an exact travel time or operational Wlz-PGB availability.
 
 ---
 
@@ -192,6 +218,16 @@ Do not state or imply:
 - that support starts automatically without care agreement and practical conditions.
 
 Wlz-PGB is a future service in preparation. The website may state this clearly, but must not imply that the service is operational or that Integral Care currently accepts Wlz-PGB clients.
+
+## Professional contemplative background
+
+Care and Wmo-PGB support remain the primary professional category. The following wording is approved as professional context, not as a separate service offering:
+
+"Naast mijn professionele achtergrond heb ik meer dan 20 jaar intensieve training en beoefening in meditatie en contemplatieve tradities. Mijn achtergrond omvat Mahayana en Vajrayana, met een bijzondere verbinding met de Nyingma-traditie; Dzogchen is een belangrijke persoonlijke praktijkachtergrond. Daarnaast heb ik ervaring met Vipassana en Zen.
+
+Deze achtergrond is geen afzonderlijke dienst: ik bied geen spirituele coaching, boeddhistische therapie of meditatieonderwijs. Wel ondersteunt zij mijn manier van aanwezig zijn, aandachtig luisteren, zelfreflectie en zorgvuldig observeren. In de begeleiding combineer ik praktische ondersteuning met helderheid, humor en diepgang, met respect voor seculiere, spirituele en religieuze levensbeschouwingen."
+
+This background must not be presented as spiritual coaching, Buddhist therapy, meditation teaching, a healthcare treatment or a replacement for professional care.
 
 ---
 
